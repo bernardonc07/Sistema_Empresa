@@ -31,7 +31,7 @@ $sql = 'SELECT * FROM cargos';
               <td><?php echo 'R$' .$dado['TetoSalarial']?></td>
               <td>
                 <a href="#" class="btn btn-edit">Editar</a>
-                <a href="#" class="btn btn-delete">Excluir</a>
+                <a href="processa-cargos.php?acao=excluir&id=<?php echo $dado['CargoID']; ?>" class="btn btn-delete">Excluir</a>
               </td>
             </tr>
             <?php

@@ -4,7 +4,7 @@ include_once './include/logado.php';
 include_once './include/conexao.php';
 include_once './include/header.php';
 
-$sql = 'SELECT f.FuncionarioID, f.Nome, c.Nome AS Cargos, s.nome AS Setor  
+$sql = 'SELECT f.FuncionarioID, f.Nome, c.Nome AS Cargos, s.nome AS Setor
 FROM funcionarios AS f 
 inner join Cargos AS c ON c.cargoID = f.cargoID
 inner join setor AS s ON s.setorID = f.setorID';

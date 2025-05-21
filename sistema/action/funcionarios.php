@@ -23,6 +23,8 @@ switch ($acao) {
         $stmt->execute();
         $stmt->close();
 
+
+
         header('Location: ../lista-funcionarios.php');
         exit();
         break;

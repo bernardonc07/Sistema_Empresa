@@ -3,7 +3,7 @@
 include_once './include/logado.php';
 include_once './include/conexao.php';
 include_once './include/header.php';
-$sql = 'SELECT p.ProdutoID AS ProdutoID, p.Nome AS Nome, ca.nome AS Categoria, p.Preco AS Preco
+$sql = 'SELECT p.ProdutoID AS ProdutoID, p.Nome AS Nome, ca.nome AS Categoria, p.Preco AS Preco, p.Peso AS Peso, p.Descricao AS Descricao
 FROM produtos AS p
 INNER JOIN categorias AS ca ON ca.CategoriaID = p.CategoriaID';
 

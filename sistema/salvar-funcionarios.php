@@ -24,6 +24,12 @@ include_once './include/header.php';
           <input type="text" name="RG" placeholder="RG">
           <select>
             <option value="Cargo">Cargo</option>
+            <!--
+            conexao com SELECT dos cargos
+            executa no banco
+            while featch resultado 
+              <option value="CargoID">Nome</option>    
+            -->
           </select>
           <select>
             <option value="Setor">Setor</option>
